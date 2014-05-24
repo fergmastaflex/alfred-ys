@@ -24,9 +24,31 @@
     "url": "https://github.com/github/hubot.git"
   },
 
-  "dependencies": {
+   "dependencies": {
     "hubot":         ">= 2.6.0 < 3.0.0",
-    "hubot-scripts": ">= 2.5.0 < 3.0.0"
+    "hubot-scripts": ">= 2.5.0 < 3.0.0", 
+    "hubot-hipchat": "2.6.4-2",
+    "optparse": "1.0.4", 
+    "ntwitter": "*",
+    "twit": "*", 
+    "githubot": "*", 
+    "underscore": "*", 
+    "underscore.string": "*", 
+    "jsdom": "*", 
+    "moment": "*", 
+    "aws2js": "*", 
+    "date-utils": "*", 
+    "nodepie": "*", 
+    "cheerio": "*", 
+    "sandbox": "0.8.3", 
+    "xml2js": "0.2.0", 
+    "htmlparser": "1.7.6",
+    "soupselect": "0.2.0", 
+    "handlebars": "1.0.5beta", 
+    "htmlparser": "1.7.6", 
+    "clark": "0.0.6", 
+    "redis": "0.8.4", 
+    "validator" : "0.4.20"
   },
 
   "engines": {
