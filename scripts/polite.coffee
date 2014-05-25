@@ -47,6 +47,6 @@ module.exports = (robot) ->
     robot.hear /(thanks|thank\s(you|ya))\salfred/, (msg) ->
         hello = msg.random welcomes
         msg.send hello.replace "%", msg.message.user.name
-    robot.hear /(bad|damnit|screw|screw you)\salfred/
+    robot.hear /(bad|damnit|screw|screw you)\salfred/, (msg) ->
         hello = msg.random apologies
         msg.send hello.replace "%", msg.message.user.name
